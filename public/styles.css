@@ -1,0 +1,102 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px 100px 0px 100px;
+    background: #f3f3f3;
+}
+
+/* List */
+
+.top {
+    position: relative;
+}
+
+img {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Bottom right text */
+.textblock {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+  background: #fff;
+  width: 500px;
+  min-height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+    display: none;
+    margin-left: auto;
+}
+
+li:hover .delete {
+    display: block;
+}
+
+label {
+    width: 400px;
+}
+
+
+/* Form */
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+input[type=text] {
+    font-size: 1em;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+p {
+  width: 100%;
+  max-width: 475px;
+  display: block;
+  padding: 10px;
+}
+
+.date {
+  width: 100%;
+  max-width: 75px;
+  display: block;
+  padding: 5px;
+}
+
+/* Controls */
+
+.controls {
+    margin-top: 20px;
+}
